@@ -3,7 +3,7 @@ public class Hawaii extends State{
         this.setName("Hawaii");
         this.taxBehavior = new FourPointFivePercent();
     }
-    //Printing and determining results of Alaska Tax
+    //Printing and determining results of Hawaii's Tax
     @Override
     public void showTax(double value) {
         double tax = taxBehavior.compute(value);

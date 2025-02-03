@@ -37,6 +37,7 @@ public class SalesTaxCalculator {
             case "alaska":
                 state = new Alaska();
                 break;
+                //Added new case for Hawaii
             case "hawaii":
                 state = new Hawaii();
                 break;
